@@ -26,7 +26,7 @@ namespace WebApplication.Controllers
         [HttpPost]
         public IActionResult SubmitForm()
         {
-            return View();
+            return View("Index");
         }
 
         public IActionResult Privacy()
